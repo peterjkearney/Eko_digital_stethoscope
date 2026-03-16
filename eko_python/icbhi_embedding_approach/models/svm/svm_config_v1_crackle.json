@@ -1,0 +1,39 @@
+{
+  "version": "v1",
+  "target": "crackle",
+  "timestamp": "20260211_181326",
+  "model_type": "SVC",
+  "test_f1": 0.7182320441988951,
+  "kernel": "rbf",
+  "class_weight": {
+    "0": 1,
+    "1": 3
+  },
+  "classification_report": {
+    "0": {
+      "precision": 0.9563106796116505,
+      "recall": 0.5777126099706745,
+      "f1-score": 0.720292504570384,
+      "support": 341.0
+    },
+    "1": {
+      "precision": 0.5752212389380531,
+      "recall": 0.9558823529411765,
+      "f1-score": 0.7182320441988951,
+      "support": 204.0
+    },
+    "accuracy": 0.7192660550458716,
+    "macro avg": {
+      "precision": 0.7657659592748518,
+      "recall": 0.7667974814559255,
+      "f1-score": 0.7192622743846395,
+      "support": 545.0
+    },
+    "weighted avg": {
+      "precision": 0.8136643568641022,
+      "recall": 0.7192660550458716,
+      "f1-score": 0.7195212496790376,
+      "support": 545.0
+    }
+  }
+}

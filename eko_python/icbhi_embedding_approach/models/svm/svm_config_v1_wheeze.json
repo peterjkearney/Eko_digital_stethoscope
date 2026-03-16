@@ -1,0 +1,39 @@
+{
+  "version": "v1",
+  "target": "wheeze",
+  "timestamp": "20260211_154623",
+  "model_type": "SVC",
+  "test_f1": 0.5,
+  "kernel": "rbf",
+  "class_weight": {
+    "0": 1,
+    "1": 6
+  },
+  "classification_report": {
+    "0": {
+      "precision": 0.9293785310734464,
+      "recall": 0.734375,
+      "f1-score": 0.8204488778054863,
+      "support": 448.0
+    },
+    "1": {
+      "precision": 0.3769633507853403,
+      "recall": 0.7422680412371134,
+      "f1-score": 0.5,
+      "support": 97.0
+    },
+    "accuracy": 0.7357798165137615,
+    "macro avg": {
+      "precision": 0.6531709409293933,
+      "recall": 0.7383215206185567,
+      "f1-score": 0.6602244389027432,
+      "support": 545.0
+    },
+    "weighted avg": {
+      "precision": 0.8310587650405173,
+      "recall": 0.7357798165137615,
+      "f1-score": 0.7634148573520327,
+      "support": 545.0
+    }
+  }
+}

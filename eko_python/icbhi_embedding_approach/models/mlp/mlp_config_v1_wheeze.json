@@ -1,0 +1,42 @@
+{
+  "version": "v1",
+  "target": "wheeze",
+  "timestamp": "20260211_154623",
+  "model_type": "MLPClassifier",
+  "test_f1": 0.3717948717948718,
+  "hidden_layer_sizes": [
+    128,
+    64
+  ],
+  "sample_weights": {
+    "0": 1,
+    "1": 6
+  },
+  "classification_report": {
+    "0": {
+      "precision": 0.9425287356321839,
+      "recall": 0.36607142857142855,
+      "f1-score": 0.5273311897106109,
+      "support": 448.0
+    },
+    "1": {
+      "precision": 0.23450134770889489,
+      "recall": 0.8969072164948454,
+      "f1-score": 0.3717948717948718,
+      "support": 97.0
+    },
+    "accuracy": 0.46055045871559636,
+    "macro avg": {
+      "precision": 0.5885150416705394,
+      "recall": 0.6314893225331369,
+      "f1-score": 0.44956303075274134,
+      "support": 545.0
+    },
+    "weighted avg": {
+      "precision": 0.8165128519100572,
+      "recall": 0.46055045871559636,
+      "f1-score": 0.4996485789990022,
+      "support": 545.0
+    }
+  }
+}

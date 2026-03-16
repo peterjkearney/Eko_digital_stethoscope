@@ -1,0 +1,52 @@
+{
+  "version": "v1_retrain",
+  "target": "wheeze",
+  "timestamp": "20260219_111222",
+  "model_type": "MLPClassifier",
+  "test_f1": 0.3863080684596577,
+  "hidden_layer_sizes": [
+    128,
+    64
+  ],
+  "sample_weights": {
+    "0": 0.589859437751004,
+    "1": 3.282122905027933
+  },
+  "classification_report": {
+    "0": {
+      "precision": 0.9227467811158798,
+      "recall": 0.4799107142857143,
+      "f1-score": 0.631424375917768,
+      "support": 448.0
+    },
+    "1": {
+      "precision": 0.2532051282051282,
+      "recall": 0.8144329896907216,
+      "f1-score": 0.3863080684596577,
+      "support": 97.0
+    },
+    "accuracy": 0.5394495412844037,
+    "macro avg": {
+      "precision": 0.587975954660504,
+      "recall": 0.6471718519882179,
+      "f1-score": 0.5088662221887128,
+      "support": 545.0
+    },
+    "weighted avg": {
+      "precision": 0.8035806520657094,
+      "recall": 0.5394495412844037,
+      "f1-score": 0.5877981707371502,
+      "support": 545.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      215,
+      233
+    ],
+    [
+      18,
+      79
+    ]
+  ]
+}

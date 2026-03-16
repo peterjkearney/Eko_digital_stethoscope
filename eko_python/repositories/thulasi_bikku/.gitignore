@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+.conda/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Dataset directories - will be downloaded at runtime
+h/
+Coswara-Data/
+Extracted_Coswara/
+Extracted_ICBHI/
+ICBHI_final_database.zip
+
+# Large model files - will be generated during training
+*.h5
+*.joblib
+*.pkl
+
+# Temporary files
+*.tmp
+*.temp
+
+# IDE files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace lung/

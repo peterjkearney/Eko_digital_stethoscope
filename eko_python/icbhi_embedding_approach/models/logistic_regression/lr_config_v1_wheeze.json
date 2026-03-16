@@ -1,0 +1,38 @@
+{
+  "version": "v1",
+  "target": "wheeze",
+  "timestamp": "20260211_154622",
+  "model_type": "LogisticRegression",
+  "test_f1": 0.47474747474747475,
+  "class_weights": {
+    "0": 1,
+    "1": 6
+  },
+  "classification_report": {
+    "0": {
+      "precision": 0.8873873873873874,
+      "recall": 0.8794642857142857,
+      "f1-score": 0.8834080717488789,
+      "support": 448.0
+    },
+    "1": {
+      "precision": 0.46534653465346537,
+      "recall": 0.4845360824742268,
+      "f1-score": 0.47474747474747475,
+      "support": 97.0
+    },
+    "accuracy": 0.8091743119266055,
+    "macro avg": {
+      "precision": 0.6763669610204264,
+      "recall": 0.6820001840942562,
+      "f1-score": 0.6790777732481769,
+      "support": 545.0
+    },
+    "weighted avg": {
+      "precision": 0.8122718594696068,
+      "recall": 0.8091743119266055,
+      "f1-score": 0.810673983842207,
+      "support": 545.0
+    }
+  }
+}

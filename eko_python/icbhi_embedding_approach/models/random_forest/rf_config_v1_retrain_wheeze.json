@@ -1,0 +1,56 @@
+{
+  "version": "v1_retrain",
+  "target": "wheeze",
+  "timestamp": "20260219_111210",
+  "model_type": "RandomForestClassifier",
+  "best_params": {
+    "max_depth": 20,
+    "max_features": "sqrt",
+    "min_samples_leaf": 4,
+    "min_samples_split": 10,
+    "n_estimators": 300
+  },
+  "best_cv_score": 0.21509909909909908,
+  "test_f1": 0.33613445378151263,
+  "class_weights": {
+    "0": 0.589859437751004,
+    "1": 3.282122905027933
+  },
+  "classification_report": {
+    "0": {
+      "precision": 0.8527724665391969,
+      "recall": 0.9955357142857143,
+      "f1-score": 0.9186405767250257,
+      "support": 448.0
+    },
+    "1": {
+      "precision": 0.9090909090909091,
+      "recall": 0.20618556701030927,
+      "f1-score": 0.33613445378151263,
+      "support": 97.0
+    },
+    "accuracy": 0.8550458715596331,
+    "macro avg": {
+      "precision": 0.880931687815053,
+      "recall": 0.6008606406480118,
+      "f1-score": 0.6273875152532692,
+      "support": 545.0
+    },
+    "weighted avg": {
+      "precision": 0.8627961159474834,
+      "recall": 0.8550458715596331,
+      "f1-score": 0.8149651750268225,
+      "support": 545.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      446,
+      2
+    ],
+    [
+      77,
+      20
+    ]
+  ]
+}

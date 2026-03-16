@@ -1,0 +1,16 @@
+{
+  "version": "v1",
+  "target": "wheeze",
+  "timestamp": "20260211_182221",
+  "model_type": "RandomForestClassifier",
+  "best_params": {
+    "max_depth": 20,
+    "max_features": "sqrt",
+    "min_samples_leaf": 4,
+    "min_samples_split": 2,
+    "n_estimators": 100
+  },
+  "best_cv_score": 0.2176568529509706,
+  "test_f1": 0.2807017543859649,
+  "class_weights": {
+    

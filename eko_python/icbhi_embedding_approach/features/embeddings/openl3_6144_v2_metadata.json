@@ -1,0 +1,16 @@
+{
+  "version": "v2",
+  "timestamp": "20260211_211628",
+  "embedding_size": 6144,
+  "n_samples": 1720,
+  "positive_rate_crackle": 0.3866279069767442,
+  "positive_rate_wheeze": 0.16046511627906976,
+  "sample_rate": 4000,
+  "openl3_content_type": "env",
+  "preprocessing": {
+    "filter_order": 4,
+    "filter_lowcut": 80,
+    "filter_highcut": 1800,
+    "filter_btype": "bandpass"
+  }
+}

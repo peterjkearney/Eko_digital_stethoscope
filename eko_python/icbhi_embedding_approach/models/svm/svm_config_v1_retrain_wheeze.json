@@ -1,0 +1,46 @@
+{
+  "version": "v1_retrain",
+  "target": "wheeze",
+  "timestamp": "20260219_111218",
+  "model_type": "SVC",
+  "test_f1": 0.36024844720496896,
+  "kernel": "rbf",
+  "class_weight": "balanced",
+  "classification_report": {
+    "0": {
+      "precision": 0.878125,
+      "recall": 0.6272321428571429,
+      "f1-score": 0.7317708333333334,
+      "support": 448.0
+    },
+    "1": {
+      "precision": 0.2577777777777778,
+      "recall": 0.5979381443298969,
+      "f1-score": 0.36024844720496896,
+      "support": 97.0
+    },
+    "accuracy": 0.6220183486238532,
+    "macro avg": {
+      "precision": 0.567951388888889,
+      "recall": 0.6125851435935199,
+      "f1-score": 0.5460096402691512,
+      "support": 545.0
+    },
+    "weighted avg": {
+      "precision": 0.7677145769622835,
+      "recall": 0.6220183486238532,
+      "f1-score": 0.6656466655270007,
+      "support": 545.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      281,
+      167
+    ],
+    [
+      39,
+      58
+    ]
+  ]
+}

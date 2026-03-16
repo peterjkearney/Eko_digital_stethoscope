@@ -1,0 +1,7 @@
+.eko_env/
+__pycache__/
+Ethics/
+data/  
+Misc/
+Papers/
+**/.DS_Store
