@@ -9,10 +9,10 @@ RAW_DATA_PATH = DATA_DIR / 'audio_and_txt_files'
 OFFICIAL_SPLIT_PATH = DATA_DIR / 'ICBHI_challenge_train_test.txt'
 DIAGNOSIS_FILE_PATH = DATA_DIR / 'patient_diagnosis.csv'
 MANIFEST_PATH = BASE_DIR / 'manifest.csv'
-#PREPARED_DIR = BASE_DIR / 'prepared'
-PREPARED_DIR = Path('/content/prepared')
+PREPARED_DIR = BASE_DIR / 'prepared'
+#PREPARED_DIR = Path('/content/prepared')
 
-REFERENCE_DEVICE = 'Meditron'
+REFERENCE_DEVICE = 'Meditron_44100'
 SPECTRUM_CORRECTED_PATH = PREPARED_DIR / 'corrected'
 SPECTRUM_CORRECTION_PROFILES_PATH = SPECTRUM_CORRECTED_PATH / 'device_profiles.json'
 
@@ -94,7 +94,7 @@ DROPOUT_P       = 0.5
 # Resnet
 # ---------------------------------------------------------------------------
 
-RESNET_VARIANT = 'resnet34'
+RESNET_VARIANT = 'resnet18'
 NUM_CLASSES    = 4
 
 # ---------------------------------------------------------------------------

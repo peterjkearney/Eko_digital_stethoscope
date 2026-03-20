@@ -49,7 +49,7 @@ from config import (
     FMAX,
 )
 
-CHECKPOINT_PATH   = Path(CHECKPOINTS_DIR) / 'final' / 'best.pt'
+CHECKPOINT_PATH   = Path(CHECKPOINTS_DIR) / 'final' / 'best_lr_5e4_cl_0_3_e10_bw_cap.pt'
 INPUT_DIR         = Path(EKO_PROJECT_ROOT) / 'data' / 'pf_samples' / 'preprocessed'
 CHUNK_RESULTS_CSV = Path(__file__).parent / 'results' / 'inference_chunk_results.csv'
 OUTPUT_DIR        = Path(__file__).parent / 'results' / 'gradcam'

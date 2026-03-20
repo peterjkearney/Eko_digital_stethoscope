@@ -55,7 +55,7 @@ from config import (
     MODEL_INPUT_SIZE,
 )
 
-CHECKPOINT_PATH = Path(CHECKPOINTS_DIR) / 'final' / 'best.pt'
+CHECKPOINT_PATH = Path(CHECKPOINTS_DIR) / 'final' / 'best_lr_5e4_cl_0_3_e10_bw_cap.pt'
 TEST_DIR        = Path(MANIFEST_PATH).parent / 'prepared' / 'test'
 OUTPUT_DIR      = Path(__file__).parent / 'results' / 'gradcam_icbhi'
 
