@@ -97,9 +97,11 @@ NUM_WORKERS = min(os.cpu_count() or 1, 4)   # DataLoader workers; use available 
 
 RANDOM_SEED = 42
 
-BATCH_SIZE               = 64
+BATCH_SIZE               = 512
 NUM_EPOCHS               = 100
 EARLY_STOPPING_PATIENCE  = 15
+OVERFIT_GAP_THRESHOLD    = 0.20  # train_icbhi − val_icbhi must exceed this to count
+OVERFIT_GAP_PATIENCE     = 2     # consecutive train-eval epochs gap must persist to stop (= 10 training epochs)
 NUM_FOLDS                = 5
 LEARNING_RATE            = 5e-4
 WEIGHT_DECAY             = 1e-3

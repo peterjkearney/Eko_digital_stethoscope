@@ -43,6 +43,7 @@ from config import (
     MANIFEST_PATH,
     MODEL_INPUT_SIZE,
     NUM_WORKERS,
+    SPECTROGRAMS_DIR,
 )
 
 
@@ -144,7 +145,10 @@ class ICBHIDataset(Dataset):
         row = self.manifest.iloc[idx]
 
         # ── Load PNG ─────────────────────────────────────────────────────
-        img = Image.open(row['spec_path']).convert('L')  # greyscale uint8
+        # Reconstruct path from SPECTROGRAMS_DIR so the dataset works on any
+        # machine regardless of the absolute prefix stored in the manifest.
+        spec_path = SPECTROGRAMS_DIR / row['split'] / Path(row['spec_path']).name
+        img = Image.open(spec_path).convert('L')  # greyscale uint8
         arr = np.array(img, dtype=np.float32)            # (H, W)
 
         # ── Online augmentation: random reflect roll ──────────────────────
