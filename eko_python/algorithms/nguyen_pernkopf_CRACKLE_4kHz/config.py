@@ -73,12 +73,12 @@ EARLY_STOPPING_PATIENCE  = 15
 OVERFIT_GAP_THRESHOLD    = 0.20
 OVERFIT_GAP_PATIENCE     = 2
 NUM_FOLDS                = 5
-LEARNING_RATE            = 5e-4
+LEARNING_RATE            = 1e-4
 WEIGHT_DECAY             = 1e-3
 
 RESNET_VARIANT     = 'resnet18'
 NUM_CLASSES        = 2            # no_crackle, crackle
 NUM_SOURCE_CLASSES = 1000
-COTUNING_LAMBDA    = 0.3
+COTUNING_LAMBDA    = 0.05   # reduced from 0.3 — KL term blows up with 2-class prior
 DROPOUT_P          = 0.5
 CHECKPOINTS_DIR    = BASE_DIR / 'checkpoints'
