@@ -1,7 +1,7 @@
 """
 03_window_and_label.py
 
-Slices each spectrum-corrected recording into 1-second windows (50% overlap)
+Slices each spectrum-corrected recording into 2-second windows (50% overlap)
 and assigns DAS/CAS labels to each window based on the annotated event
 timings in parsed_segments.csv.
 
@@ -17,7 +17,7 @@ Windows that extend beyond the end of the recording are dropped (no padding).
 Pipeline:
     1. For each unique recording in parsed_segments.csv, load the corrected
        wav from CORRECTED_DIR.
-    2. Generate 1s windows with 0.5s hop across the full recording duration.
+    2. Generate 2s windows with 1s hop across the full recording duration.
     3. For each window compute total DAS and CAS overlap using event timings
        from parsed_segments.csv.
     4. Apply the threshold to assign binary labels.

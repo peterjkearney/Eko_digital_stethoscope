@@ -222,7 +222,7 @@ def build_parsed_segments_table(raw_data_path: Path) -> pd.DataFrame:
                     'wav_path':         wav_path
                 })
 
-            parsedSet[dataset] = pd.DataFrame(rows)
+        parsedSet[dataset] = pd.DataFrame(rows)
     
     # Now have 2 DataFrames in parsedSet (train and test)
     parsed_segments = pd.concat([parsedSet['train'],parsedSet['test']],ignore_index=True)
